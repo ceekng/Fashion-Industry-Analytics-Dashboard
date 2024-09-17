@@ -44,8 +44,8 @@ streamlit run app.py
 
 ## Project Structure
 
-1. api.py: Fetches stock prices from the Twelve Data API.
-2. scraper_brands_rank.py: Scrapes brand rankings from The Lyst Index.
+1. api.py (not provided): Fetches stock prices from the Twelve Data API. Results in brands_rank.csv 
+2. scraper_brands_rank.py (not provided): Scrapes brand rankings from The Lyst Index. Results in brands_stock.csv
 3. model.py: Merges and analyzes stock, trend, and ranking data.
 
 final_dataset.csv: Merged dataset of stock prices, brand rankings, and Google Trends data.
